@@ -121,7 +121,7 @@ export function TreeParticles({ count = 2000, isMobile = false }) {
       <bufferGeometry>
         <bufferAttribute
           attach="attributes-position"
-       args={[positions, 3]}
+       args={[positions, 3]} />
         <bufferAttribute
           attach="attributes-color"
           args={[colors, 3]}        />
